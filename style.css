@@ -250,6 +250,85 @@ h1 {
   box-shadow:
     0 30px 60px rgba(0,0,0,0.25);
 }
+@media (max-width: 600px) {
+
+  /* Frame & corners */
+  .frame-border {
+    inset: 10px;
+    border-width: 4px;
+    border-radius: 20px;
+  }
+
+  .corner {
+    font-size: 28px;
+  }
+
+  .top-left,
+  .top-right {
+    top: 12px;
+  }
+
+  .bottom-left,
+  .bottom-right {
+    bottom: 12px;
+  }
+
+  /* Hero Section */
+  .hero {
+    margin-top: 80px;
+    padding: 0 16px;
+  }
+
+  .avatar {
+    width: 220px;
+    height: 220px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  /* Cards */
+  .card {
+    margin: 50px 16px;
+    padding: 26px;
+  }
+
+  .card h2 {
+    font-size: 22px;
+  }
+
+  .card p {
+    font-size: 16px;
+  }
+
+  /* Gallery */
+  .gallery {
+    margin: 70px auto;
+  }
+
+  .gallery h2 {
+    font-size: 24px;
+  }
+
+  .images img {
+    height: 200px;
+  }
+
+  /* Blessings list */
+  .card.soft li {
+    font-size: 16px;
+  }
+
+  /* Footer text */
+  .footer {
+    font-size: 13px;
+  }
+}
 
 
 
